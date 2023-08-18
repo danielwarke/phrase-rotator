@@ -65,7 +65,10 @@ export function App() {
 
   return (
     <div className="container">
-      <h3>{displayPhrase}</h3>
+      <h3>
+        {displayPhrase}
+        <span className="blinking-cursor">|</span>
+      </h3>
     </div>
   );
 }
